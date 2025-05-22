@@ -11,7 +11,6 @@ public class GitHubPet extends Pet{
     public GitHubPet(String name) {
         super(name);
         this.codePoints = 0;
-        this.evolutionStage = 0;
         this.evolutionStage = 1;
         this.lastCommitTime = LocalDateTime.now();
     }
